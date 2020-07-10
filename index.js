@@ -5,12 +5,6 @@ canvas.height = window.innerHeight
 
 const { width, height } = canvas
 
-const colorToI = [
-  'red',
-  'orange',
-  'yellow',
-  'green',
-]
 const _ = canvas.getContext('2d')
 const phi = (1 + Math.sqrt(5)) / 2
 
